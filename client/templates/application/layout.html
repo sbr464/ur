@@ -1,0 +1,26 @@
+<template name="layout">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{pathFor 'userlanding'}}"><img class="mainlogo" src="/images/logo.png" /></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+          {{> yield region="topnav"}}
+          </div>
+        </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 sidebar">
+      </div>
+      <div class="col-md-9 col-md-offset-3 main">
+      </div>
+    </div>
+  </div>
+</template>
