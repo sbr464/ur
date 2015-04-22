@@ -38,8 +38,8 @@ background-color: #fff;
 }
 
 .mainlogo {
-  margin-left: 5px;
-  width: 28px;
+  margin-left: 0px;
+  width: 36px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
